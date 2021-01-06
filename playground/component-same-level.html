@@ -24,7 +24,7 @@
             template: '<div>Content <button v-on:click="passData">pass</button></div>',
             methods: {
                 passData: function(){
-                    this.$emit('pass',110);
+                    this.$emit('pass',100);
                 }
             }
         }
@@ -37,7 +37,7 @@
             },
             methods: {
                 getData : function(value){
-                    this.num = value;
+                    this.num = value+10;
                 }
             },
             data: {
