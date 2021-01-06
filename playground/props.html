@@ -6,12 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="app"><app-header></app-header></div>
+    <div id="app"
+    ><app-header v-bind:propsdata="message"></app-header>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
         
         var appHeader = {
-            template: '<h1>header</h1>'
+            template: '<h1>header</h1>',
+            props : ['propsdata']
         }
 
         
