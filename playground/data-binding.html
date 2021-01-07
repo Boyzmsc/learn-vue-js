@@ -7,7 +7,8 @@
 </head>
 <body>
     <div id="app">
-        <p>{{num}}</p>
+        <p v-bind:id = "uuid">{{num}}</p>
+        <!-- <p id = "abc1234">{{num}}</p> -->
         <p>{{doubleNum}}</p>
     </div>
 
@@ -16,7 +17,7 @@
         new Vue({
             el: '#app',
             data: {
-                message : 'hi',
+                uuid: 'abc1234',
                 num: 10
             },
             computed: {
