@@ -22,7 +22,6 @@ export default {
       this.str = 'Noooo';
     }
   }
-
 }
 </script>
 
