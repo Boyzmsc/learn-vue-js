@@ -13,6 +13,7 @@
 </template>
 
 <script>
+// axios를 사용하기 위한 import
 import axios from 'axios';
 
 export default {
@@ -27,7 +28,7 @@ export default {
       // submit의 새로고침 기능 방지
       // event.preventDefault() (or) submit.prevent = "submitForm"
       console.log(this.username, this.password);
-      // 서버에 post로 전송
+      // 서버에 post로 전송 using axios
       var url = "https://jsonplaceholder.typicode.com/users";
       var data = {
         username : this.username,
