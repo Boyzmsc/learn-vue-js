@@ -1,6 +1,6 @@
 # Vue-js
 
-![다운로드](https://user-images.githubusercontent.com/28584213/103905409-ec0e0d00-5141-11eb-8e61-5de7b6a831b9.png)
+![pngwing com](https://user-images.githubusercontent.com/28584213/106288976-0b551180-628c-11eb-884e-b7afe9c8cb7c.png)
 
 ## About
 
