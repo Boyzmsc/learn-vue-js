@@ -1,6 +1,6 @@
 # Vue-js
 
-![pngwing com](https://user-images.githubusercontent.com/28584213/106288976-0b551180-628c-11eb-884e-b7afe9c8cb7c.png)
+<img src="https://user-images.githubusercontent.com/28584213/106288976-0b551180-628c-11eb-884e-b7afe9c8cb7c.png" alt="pngwing com" style="zoom:50%;" />
 
 ## About
 
